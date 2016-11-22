@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box; }
 
+/* Twitter widget */
+#twitter-widget-0 {
+  width:100% !important; 
+  height:800px !important;
+}
+
 body {
   padding: 0;
   margin: 0;
