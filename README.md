@@ -1,3 +1,3 @@
-# Bio from [@DavidShares](https://twitter.com/DavidShares) on Twitter
-
-Researcher, dev, passionate about [#bitcoin](https://twitter.com/hashtag/bitcoin?src=hash). Writes for [@Blockchain](https://twitter.com/Blockchain) & [@BTCTN](https://twitter.com/BTCTN). Founder of [@Bitcoinxio](https://twitter.com/Bitcoinxio) which was acquired by [Bitcoin.com](https://t.co/Jqtg9VCaG5). Formerly [@Myspace](https://twitter.com/Myspace).
+<a class="twitter-timeline"  href="https://twitter.com/DavidShares" data-widget-id="347077469637079040">Tweets by @DavidShares</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
