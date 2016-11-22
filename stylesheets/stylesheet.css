@@ -7,6 +7,21 @@
   height:800px !important;
 }
 
+/* Twitter bio */
+#fixedHeader {
+  position:absolute; 
+  top:0px; 
+  color:#fff; 
+  font-size:26px; 
+  width:650px; 
+  padding:10px;
+}
+
+#fixedHeader a {
+  color:#d1ffdd; 
+  text-decoration:none;
+}
+
 body {
   padding: 0;
   margin: 0;
