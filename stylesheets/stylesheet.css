@@ -10,12 +10,12 @@
 /* Twitter bio */
 #fixedHeader {
   position:absolute; 
-  top:0px; 
+  top:50px; 
   color:#fff; 
-  font-size:26px; 
+  font-size:36px; 
   max-width:850px; 
   margin:auto;
-  left:0;
+  left:20px;
   right:0;
   padding:10px;
 }
