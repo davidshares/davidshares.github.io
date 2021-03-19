@@ -1,0 +1,1 @@
+Bitcoin Cash NFT: COINWARS
