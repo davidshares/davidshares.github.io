@@ -1,1 +1,0 @@
-Bitcoin Cash (BCH) is the light that shines on the path to freedom
