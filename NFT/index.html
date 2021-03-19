@@ -1,4 +1,19 @@
 <html>
+  <head>
+    <style>
+      a {
+          display: list-item;
+          list-style-type: disc;
+          list-style-position: inside;
+        }
+
+      a[href="https://davidshares.github.io/NFT/index.html"]
+        {
+          display: none;
+        }
+    </style>
+  </head>
+  
   <body>
     <p>
       Bitcoin Cash NFTs
@@ -10,11 +25,11 @@
       (async () => {
         const response = await fetch('https://api.github.com/repos/davidshares/davidshares.github.io/contents/NFT');
         const data = await response.json();
-        let htmlString = '<ul>';
+        let htmlString = '<p>';
         for (let file of data) {
-          htmlString += `<li><a href="https://davidshares.github.io/${file.path}">${file.name}</a></li>`;
+          htmlString += `<span><a href="https://davidshares.github.io/${file.path}">${file.name}</a></span>`;
         }
-        htmlString += '</ul>';
+        htmlString += '</p>';
         document.getElementsByName('nft')[0].innerHTML = htmlString;
       })()
     </script>
