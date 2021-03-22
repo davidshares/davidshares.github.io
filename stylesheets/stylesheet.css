@@ -21,7 +21,7 @@
 #fixedHeader a,
 #fixedHeader p {
   font-size:14px;
-  color:#d1ffdd; 
+  color:#d1ffdd !important; 
   text-decoration:none;
 }
 
