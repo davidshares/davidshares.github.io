@@ -23,8 +23,8 @@
   min-width:200px;
 }
 
-#fixedHeader a,
-#fixedHeader p {
+#fixedHeader,
+#fixedHeader a {
   font-size:14px;
   color:#d1ffdd !important; 
   text-decoration:none;
