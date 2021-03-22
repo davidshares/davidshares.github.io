@@ -7,20 +7,20 @@
   height:800px !important;
 }
 
-/* Twitter bio */
 #fixedHeader {
   position:absolute; 
-  top:50px; 
-  color:#fff; 
-  font-size:36px; 
-  max-width:850px; 
-  margin:auto;
-  left:20px;
-  right:0;
-  padding:10px;
+  text-align:center;
+  top: 20px;
+  left: 20px;
+  background:rgba(255, 255, 255, .1);
+  padding:4px;
+  border-radius:3px;
+  min-width:200px;
 }
 
-#fixedHeader a {
+#fixedHeader a,
+#fixedHeader p {
+  font-size:14px;
   color:#d1ffdd; 
   text-decoration:none;
 }
