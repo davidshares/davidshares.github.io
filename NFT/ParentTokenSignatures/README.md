@@ -2,7 +2,7 @@
 
 *To verify the cryptographic signatures below, open up [Electron Cash SLP](https://simpleledger.cash/project/electron-cash-slp-edition/) and in the top navigation menu, click on Tools >> Sign/Verify Message. In the next screen, copy and paste the `message`, `address`, and `signature` below and then click Verify. If it authenticates, it will show a verified message. If it's not signed correctly, it will show a wrong signature message.*
 
-## [DGRP signature](https://simpleledger.info/token/40dfb58051e47fb98c9c4425055a6fc61268a52aebc22a84d6971ccf342b73be)
+## [DGRP](https://simpleledger.info/token/40dfb58051e47fb98c9c4425055a6fc61268a52aebc22a84d6971ccf342b73be)
 
 **Message**:
 
@@ -20,7 +20,7 @@ H7PiDSQio9zdhnrVvdGIJEAANG8NF9iDGzLc+NZgOx/CcH0mvMpUTZ/e0ZzNl+Q/zFVxqCD7q8nVSnwR
 
 ***
 
-## [MEME signature](https://simpleledger.info/token/5061c13f999e917f519ece565eddc8cb5a20f3572902985396c40cf1435d0005)
+## [MEME](https://simpleledger.info/token/5061c13f999e917f519ece565eddc8cb5a20f3572902985396c40cf1435d0005)
 
 **Message**:
 
