@@ -1,4 +1,4 @@
-Bitcoin Cash NFT
+# Bitcoin Cash NFT
 
 Ticker: COINWARS
 
