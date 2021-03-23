@@ -54,9 +54,29 @@
       <li class="nav-item">
         <a class="nav-link" href="https://davidshares.github.io/NFT/">BCH NFTs</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" id="bchprice"></a>
+      </li>
     </ul>
   </div>
 </nav>
+<!-- BCH price -->
+<script type="text/javascript">
+    var xmlhttp = new XMLHttpRequest();
+    var price = "https://api.blockchair.com/stats";
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4  &&  this.status == 200) {
+        var json = JSON.parse(this.responseText);
+        parseJson(json);
+      }		
+    };
+    xmlhttp.open("GET", price, true);
+    xmlhttp.send();
+    function parseJson(json) { 
+      var bchusd = "BCH/USD $" + (json["data"]["bitcoin-cash"]["data"]["market_price_usd"]).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");      
+      document.getElementById("bchprice").innerHTML = bchusd;
+};
+</script>
 
 <main class="container">
 
