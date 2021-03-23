@@ -18,8 +18,6 @@ qp9r5tukjnd0z5yu54rs5mdrs4avww9u7c6tjqtxu7
 
 H7PiDSQio9zdhnrVvdGIJEAANG8NF9iDGzLc+NZgOx/CcH0mvMpUTZ/e0ZzNl+Q/zFVxqCD7q8nVSnwRAeoJkAA=
 
-***
-
 ## [MEME](https://simpleledger.info/token/5061c13f999e917f519ece565eddc8cb5a20f3572902985396c40cf1435d0005)
 
 **Message**:
