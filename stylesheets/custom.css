@@ -6,7 +6,7 @@
   background: rgb(10, 193, 142) !important;
 }
 a.nav-link {
-  color: rgba(0, 0, 0, 0.8) !important;
+  color: #fff !important;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 3px;
   margin-right: 4px;
