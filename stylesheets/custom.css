@@ -1,20 +1,26 @@
 /* Custom Stylesheet */      
 .container {
-  margin-top: 50px;
+    position: absolute;
+    left: 0%;
+    right: 0%;  
 }
+
 .navbar {
   background: rgb(10, 193, 142) !important;
 }
+
 a.nav-link {
   color: #fff !important;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   margin-right: 4px;
 }
+
 li#price {
   position: absolute;
   right: 15px;
 }
+
 .about {
   margin: 75px 75px 0px 45px;
   background: rgba(233, 78, 85, 1);
@@ -29,4 +35,9 @@ li#price {
 
 .modal-body img {
   width: 300px;
+}
+
+.footer {
+  background:rgba(255,255,255,.7);
+  padding:10px;    
 }
