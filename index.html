@@ -42,7 +42,7 @@
         <a class="nav-link" href="https://davidshares.github.io/NFT/">BCH NFTs</a>
       </li>
       <li class="nav-item" id="price">
-        <a class="nav-link" id="bchprice"></a>
+        <a class="nav-link" id="bchprice" data-toggle="modal" data-target="#bchmodal"></a>
       </li>
     </ul>
   </div>
@@ -65,6 +65,42 @@
 };
 </script>
 
+<!-- BCH modal dialog -->
+<div class="modal fade" id="bchmodal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">What is Bitcoin Cash (BCH)?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <!-- Modal body -->  
+    <div class="modal-body">
+        <center><p><img src="https://davidshares.github.io/images/bitcoin-cash-green-logo-horizontal.svg"></p></center>
+        
+        <p><a href="https://bch.info/">Bitcoin Cash (BCH)</a> is smart programmable money. When Bitcoin started in 2009, it started as peer-to-peer digital cash, as designed in the <a href="https://github.com/davidshares/Bitcoin-whitepaper/blob/master/2008-bitcoin-whitepaper.pdf">
+        Bitcoin whitepaper</a>. Years later and with the aid of special interest groups, Bitcoin (BTC)
+        shifted focus from a P2P cash blockchain, to become a <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a">settlement layer</a>. This significant change forced a community divide and due to that,
+        Bitcoin was upgraded in 2017 to Bitcoin Cash (BCH), splitting and forking Bitcoin. Now there is BTC and BCH, with BCH being the newer version that continues with the P2P cash roadmap as originally intended.</p>
+        
+        <p>BCH is digital cash, it's <a href="https://cash.coin.dance/development">open source</a> money, and is <a href="https://github.com/bitcoincashbch/bitcoin-cash/blob/master/README.md#readme">decentralized</a>. Some features are that is scales
+        on-chain and has <a href="https://bitcoinfees.cash/">low fees</a>. As with any money, it has enhanced privacy features using <a href="https://cashfusion.org/">CashFusion</a> and Schnorr sigs. Since BCH is an immutable blockchain,
+        it also has uncensorable social media, with platforms like <a href="https://member.cash/">Member</a>. BCH makes full use of zero confirmations and double-spend proofs, making BCH extremely fast to transact. BCH also has 
+        <a href="https://simpleledger.cash/">SLP tokens</a>, allowing people to tokenize assets. For example, <a href="https://github.com/simpleledger/slp-specifications/blob/master/slp-nft-1.md">BCH has NFTs</a>, which have become a popular way
+        for people to create collectibles on blockchains.</p>
+        
+        <p>👉 ️<a href="https://bitcoincash.substack.com/p/what-is-bitcoin-cash-bch">Keep reading...</a></p>
+    </div>
+      
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- End Modal -->
+
 <p class="about">About me: I believe in free speech and not being censored, economic freedom, in general being a free person living voluntarily and making their own life choices. I believe in privacy, anonymity, permissionless innovation, not being ruled by kings, the truth, and for humans to be treated equally. Free the markets, free the world. 💸🌎</p>
 
 <main class="container">
@@ -85,10 +121,10 @@ particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enabl
   <div class="footer">
     <center>
       <p>davidshares.github.io <script>document.write(new Date().getFullYear())</script><br>
-        ✅ Open Source 🏗️ Built using Bootstrap 📝 <a href="https://github.com/davidshares/davidshares.github.io/blob/master/LICENSE">MIT license</a> 🍺 <a href="#" data-toggle="modal" data-target="#exampleModal">Buy me a beer</a>
+        ✅ Open Source 🏗️ Built using Bootstrap 📝 <a href="https://github.com/davidshares/davidshares.github.io/blob/master/LICENSE">MIT license</a> 🍺 <a href="#" data-toggle="modal" data-target="#tipmodal">Buy me a beer</a>
         
-<!-- Modal dialog -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Tip modal dialog -->
+<div class="modal fade" id="tipmodal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -126,7 +162,7 @@ particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enabl
       </div>
     </div>
   </div>
-</div>
+</div> <!-- End Modal -->
 
     </center>
   </div>
