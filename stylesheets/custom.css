@@ -1,8 +1,8 @@
 /* Custom Stylesheet */      
 .container {
-    position: absolute;
-    left: 0%;
-    right: 0%;  
+  position: absolute;
+  left: 0%;
+  right: 0%;  
 }
 
 .navbar {
@@ -19,6 +19,10 @@
 li#price {
   position: absolute;
   right: 15px;
+}
+
+#bchprice:hover {
+  cursor: pointer;
 }
 
 .about {
