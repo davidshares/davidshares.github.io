@@ -1,6 +1,6 @@
 {
   "name": "David Shares",
   "tagline": "",
-  "body": "<a class="twitter-timeline" href="https://twitter.com/DavidShares?ref_src=twsrc%5Etfw">Tweets by DavidShares</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>\r\n          \r\n",
+  "body": "<a class=\"twitter-timeline\"  href=\"https://twitter.com/DavidShares\" data-widget-id=\"347077469637079040\">Tweets by @DavidShares</a>\r\n<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+\"://platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>\r\n          \r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
